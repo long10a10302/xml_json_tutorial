@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE library [
+    <!ELEMENT library (book)*>
+    <!ELEMENT book (booktitle, author, price)>
+    <!ELEMENT booktitle (#PCDATA)>
+    <!ELEMENT author (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+]>
+<library>
+    <book>
+        <booktitle>Book 1</booktitle>
+        <author>Jon Griham</author>
+        <price>99</price>
+    </book>
+    <book>
+        <booktitle>Book 2</booktitle>
+        <author>Jon Smith</author>
+        <price>99</price>
+    </book>
+    <book>
+        <booktitle>Book 3</booktitle>
+        <author>Jon Ten Hag</author>
+        <price>99</price>
+    </book>
+</library>
