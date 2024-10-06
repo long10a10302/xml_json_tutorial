@@ -1,0 +1,19 @@
+<!ELEMENT batdongsan (ds-daily, ds-chusohuu, ds-taisan, ds-canho)>
+<!ELEMENT ds-daily (#PCDATA?)>
+<!ELEMENT ds-chusohuu (#PCDATA?)>
+<!ELEMENT ds-taisan (#PCDATA?)>
+<!ELEMENT ds-canho (#PCDATA?)>
+
+<!ELEMENT daily(name,email,phone)>
+<!ELEMENT chusohuu(name)>
+<!ELEMENT taisan (name,description,number_of_flats.features,owner_reference)>
+<!ELEMENT canho(name,description,featuré,property_reference)>
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT number_of_flats (#PCDATA)>
+<!ELEMENT features (#PCDATA)>
+<!ELEMENT owner_reference (#PCDATA)>
+<!ELEMENT property_reference (#PCDATA)>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE batdongsan SYSTEM "bai4.dtd">
+<batdongsan>
+    <ds-daily></ds-daily>
+    <ds-chusohuu></ds-chusohuu>
+    <ds-taisan></ds-taisan>
+    <ds-canho></ds-canho>
+</batdongsan>
